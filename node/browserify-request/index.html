@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>npm request / browserify example</title>
+</head>
+<body>
+  <p>this application demonstrates how to interact with ArcGIS Services without the aid of clientside of an Esri SDK or a generic JavaScript framework like jQuery or Dojo.</p>
+  <p>click on the 'query' button below to return the value associated with an attribute of interest for an individual feature.  You can update the text in the same field and click 'edit' to push something new back to the server.</p>
+  <p>url of feature service</p>
+  <input id="featureServiceUrl" value="http://services1.arcgis.com/1vWZ00DKS28MdI5r/arcgis/rest/services/ConnectData/FeatureServer/0"></input>
+  <p>objectId of feature to query</p>
+  <input id="featureObjectID" value="1"></input><br>
+  <p>fieldname to query a value for</p>
+  <input id="attributeFieldname" value="NAME"></input><br><br>
+  <button id="queryButton">query</button>
+  <button id="editButton">edit</button><br><br>
+  <input id="featureAttribute"></input><br><br>
+  <div id="results"></div>
+  <script src="./bundle.js"></script>
+</body>
+</html>

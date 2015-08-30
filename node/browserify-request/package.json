@@ -1,0 +1,16 @@
+{
+  "name": "browserify-request",
+  "main": "index.js",
+  "author": "John Gravois <jgravois@esri.com> (http://johngravois.com)",
+  "license": "Apache-2.0",
+  "description": "using request to talk to ArcGIS Server",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "request": "^2.61.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "uglify-js": "^2.4.24",
+    "watchify": "^3.3.1"
+  }
+}
