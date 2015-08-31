@@ -4,13 +4,13 @@ to do
 
 ## Prerequisites
 
-node/npm need to be installed
-global install of `browserify` (`npm install -g browserify`)
+working node/npm installation
 
 ## Development Steps
 
 1. cd into the folder and run `npm install` to lay down its dependencies
-2. call `browserify main.js -c bundle.js` to compile local source
+2. call `npm start` to spin up the site at [http://localhost:1337]
+2. call `npm run compile` to build a new local copy of the source
 
 [live sample](http://esri.github.io/developer-support/node/browserify-request/index.html)
 

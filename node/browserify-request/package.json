@@ -6,12 +6,16 @@
   "description": "using request to talk to ArcGIS Server",
   "readmeFilename": "README.md",
   "dependencies": {
-    "browser-request": "^0.3.3",
-    "request": "^2.61.0"
+    "browser-request": "^0.3.3"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
+    "http-server": "^0.8.0",
     "uglify-js": "^2.4.24",
     "watchify": "^3.3.1"
+  },
+  "scripts": {
+    "start": "http-server -p 1337",
+    "compile": "browserify main.js -o bundle.js"
   }
 }
